@@ -1,111 +1,207 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,800;1,900&display=swap" rel="stylesheet">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="bootstrap.min.css" />
 
-    <title>Inicio</title>
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,800;1,900&display=swap"
+    rel="stylesheet" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="assets/css/main.css" />
 
-  </head>
-  <body>
-    
+  <title>Tecnoacademia Oriente</title>
+</head>
 
-    <!-- Menu (navbar)-->
-    <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
+<body>
+  <!-- inicioMenu (navbar)-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-pagina sticky-sm-top">
+    <div class="container-fluid">
       <a class="navbar-brand" href="#">Tecnoacademia</a>
-      <ul class="nav nav-pills">
-        <li class="nav-item">
-          <a class="nav-link" href="#scrollspyHeading1">¿Quiénes somos?</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#scrollspyHeading2">Galería</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Categorías</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href='tic.html'>TIC</a></li>
-            <li><a class="dropdown-item" href='diseño.html'>Diseño y prototipado</a></li>
-            <li><a class="dropdown-item" href='electronica.html'>Electrónica y robótica</a></li>
-            <li><a class="dropdown-item" href='biotec.html'>Biotecnología</a></li>
-            <li><hr class="dropdown-divider"></li>
-          </ul>
-        </li>
-      </ul>
-    </nav>
-    
-
-    <!-- Primera parte -->
-    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="https://pbs.twimg.com/media/EoFqAKpXYAMI-BH.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="https://pbs.twimg.com/media/EoFq5tyXIAIauDc.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="https://www.puntodevistardb.com/wp-content/uploads/2020/12/Foto-2.jpg?x97890" class="d-block w-100" alt="...">
-        </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="padding-left: 39%">
+          <li class="nav-item dropdown"></li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-primary" href="#scrollspyHeading1">¿Quiénes somos?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-primary" href="#scrollspyHeading2">Galería</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-primary" href="#scrollspyHeading3">Participación en eventos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-primary" href="#scrollspyHeading4">Contacto</a>
+          </li>
+          <!--submenu-->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+              aria-expanded="false">Nuestras líneas</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="tic.html">TIC</a></li>
+              <li>
+                <a class="dropdown-item" href="diseño.html">Diseño y prototipado</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="electronica.html">Electrónica y robótica</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="biotec.html">Biotecnología</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Atras</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Siguiente</span>
-      </button>
     </div>
-    
-    
-    <!-- Segunda parte -->
-<h1 class="text-center" style="color:rgb(173, 88, 9); font-family: 'Montserrat', sans-serif;">¿Quiénes somos?</h1>
-<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita consequatur doloribus harum, mollitia iure ex nulla tenetur quo possimus, nesciunt maxime earum odio vitae. Aut nobis sunt laboriosam suscipit deleniti explicabo deserunt accusamus ut, mollitia temporibus velit id molestias magnam autem amet doloremque asperiores, ipsam, dolor dolores exercitationem! Alias, magnam.</p>
+  </nav>
+  <!-- final Menu (navbar)-->
 
-  <div class="text-center "style="padding-top: 1.5rem;">
-  <a type="button" class="btn btn-primary" href='tic.html'>TIC</a>
-  <a type="button" class="btn btn-primary" href='diseño.html'>Diseño y prototipado</a>
-  <a type="button" class="btn btn-primary" href='electronica.html'>Electrónica y robótica</a>
-  <a type="button" class="btn btn-primary" href='biotec.html'>Biotecnología</a>
-  </div>  
-  <div class="text-center">
-      <div class="container justify-content-center">
-        <div class="tab-content" id="pills-tabContent">
-          <div class="containertab-pane fade show active justify-content-center" id="pills-TIC" role="tabpanel" aria-labelledby="pills-TIC-tab">
-            <img src="https://www.tensorflow.org/site-assets/images/marketing/home/model.svg?hl=es-419" class="img-fluid" alt="...">
-            <p style="padding: 1rem;">Las Tecnologías de la Información y las Comunicaciones (TIC), son el conjunto de recursos, herramientas, equipos, programas informáticos, aplicaciones, redes y medios; que permiten la compilación, procesamiento, almacenamiento, transmisión de información como: voz, datos, texto, video e imágenes </p>
-            
+  <!-- inicio banner carrusel-->
+  <section class="banner">
+    <div class="banner-content">
+      <h1>Tecnoacademia del Oriente</h1>
+      <a href="#">Acerca de nosotros</a>
+    </div>
+  </section>
+  <!-- fin banner carrusel-->
+
+  <!-- inicio ¿Qué es? Segunda parte -->
+  <h1 class="text-center" style="
+        color: rgb(173, 88, 9);
+        font-family: 'Montserrat', sans-serif;
+        padding-top: 100px;
+      ">
+    ¿Qué es?
+  </h1>
+  <p class="text-center">
+    La Tecnoacademia del Oriente Antuiqueño es un espacio dotado de
+    tecnologías emergentes.
+  </p>
+  <!-- final ¿Qué es? Segunda parte -->
+
+  <!-- inicio Experiencias tercera parte -->
+  <h1 class="text-center" style="
+        color: rgb(173, 88, 9);
+        font-family: 'Montserrat', sans-serif;
+        padding-top: 100px;
+      ">
+    Experiencias
+  </h1>
+    <!-- inicio Primer card -->
+    <div class="card" style="padding: 50px">
+      <div class="row g-0">
+        <div style="padding-left: 50px" class="col-md-4">
+          <img
+            src="https://e7.pngegg.com/pngimages/556/580/png-clipart-computer-icons-symbol-user-profile-logo-symbol-miscellaneous-white.png"
+            class="img-fluid rounded-start" alt="..." />
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p style="padding-left: 500px" class="card-text position-absolute top-50 translate-middle">
+              Me parece un exelente lugar donde se pueden generar grandes
+              proyectos <br /><i> -Juan Batista</i>
+            </p>
           </div>
-          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">Electronica ... </div>
-          <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">Diseño...</div>
-          <div class="tab-pane fade" id="pills-" role="tabpanel" aria-labelledby="pills-contact-tab">Biotecnologia...</div>
         </div>
       </div>
     </div>
-<!--
-  <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
-    <h4 id="scrollspyHeading1">TIC</h4>
-    <p style="padding: 10rem;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero eaque corporis a, provident dolorum enim maiores nisi dicta voluptate culpa quo id unde facere at vel cum ratione sit laboriosam? Nobis exercitationem quam eaque consequuntur laudantium expedita placeat corrupti magnam minima consectetur veritatis ratione esse maxime reprehenderit rerum unde, fugiat amet odio cum provident architecto labore deleniti in ab. Velit accusantium a, deserunt doloremque officia molestias blanditiis atque quia cum error exercitationem, eius quibusdam vel dolore dolor consequuntur fugit sed veritatis illum veniam consequatur tempore possimus nostrum explicabo. Dolorem harum minima nihil eveniet laboriosam beatae qui? Natus, itaque esse nulla fugit ratione at deserunt laboriosam, voluptates laudantium aut, vero maiores a voluptatum voluptatibus quasi! Laborum asperiores voluptatum dolorem, eligendi porro amet assumenda accusamus blanditiis quos reiciendis natus voluptates nulla laboriosam ab expedita omnis commodi dolore repudiandae maiores minus, odio soluta? Magni cumque fugiat voluptatem distinctio soluta nemo accusantium, eveniet dignissimos corrupti dolore aut nobis, facilis quidem odio? Eum molestiae quo voluptatem aperiam optio sed illo, incidunt ad fugiat possimus? Quae consequuntur nemo veritatis? Autem et placeat perferendis! Animi harum molestias laborum ratione doloremque eligendi modi non impedit rem officia suscipit blanditiis similique culpa, dolore, quasi cupiditate voluptatum architecto fuga repudiandae eum earum quaerat? Totam, repellendus quam exercitationem architecto tempora numquam fugit! Quam, dignissimos molestias aut quos nesciunt neque corporis eaque sunt temporibus iure? Voluptatum odio, fugiat iste necessitatibus minus distinctio dolore corporis facere, soluta porro, blanditiis cum magni omnis autem suscipit? Molestias vitae illo dolorum delectus ut, quis eius vel aliquam, incidunt quo inventore deleniti quae minus aspernatur architecto adipisci vero dolorem debitis dolor eveniet nam officia? Soluta porro, iure enim eligendi dolorem animi facere. Dignissimos tempore, optio, deleniti numquam voluptates vero ad blanditiis architecto dolor eveniet corrupti aperiam consequatur in velit magnam incidunt voluptate, quos animi molestias omnis modi! Sit corrupti iste facilis debitis beatae harum doloremque veritatis dicta, tempore quidem in suscipit aut excepturi, minus perferendis quas unde omnis delectus optio ducimus dolore consequatur voluptas culpa. Quidem ab molestiae qui fugit, voluptate quaerat porro ex esse rem praesentium nihil animi. Saepe assumenda consequuntur nobis, perspiciatis atque rem, deserunt ab repudiandae nisi quisquam rerum recusandae omnis est autem natus placeat ducimus voluptatem. Sed magni animi reprehenderit ratione ullam cupiditate iusto cumque. In, velit nostrum labore minima est culpa debitis accusamus dicta aspernatur, eos qui laboriosam quia exercitationem cumque ipsam at voluptas nesciunt illo quam voluptates, commodi temporibus? Fugit esse cum facilis quas, quam architecto doloremque amet facere officia. Sunt at aperiam odit, ipsa dignissimos dicta placeat ex nihil possimus exercitationem error vel, rerum, eveniet optio culpa laborum soluta voluptatem minima reiciendis quia. Repellat ipsam cumque distinctio accusantium obcaecati enim consectetur aperiam! Eum a, pariatur tempora at commodi sapiente voluptate itaque excepturi exercitationem unde accusantium, ullam aut deleniti repellat nobis veniam? Rem natus quibusdam accusantium, ipsam necessitatibus laboriosam deserunt quia repellendus dolorem, neque unde ratione, dignissimos libero ducimus illo autem excepturi eum fuga quas esse veniam ea adipisci deleniti? Maxime necessitatibus doloremque odio officiis veritatis enim illo commodi modi temporibus molestias nemo, dolore numquam aliquam aliquid pariatur exercitationem voluptatum laudantium. Molestiae, dolorum illo. Animi ratione cum error commodi? Libero sequi commodi vero a! Quae itaque porro harum temporibus sequi ab provident, quam accusantium molestias optio illo earum id. Eveniet sint a animi, nesciunt sapiente exercitationem tempore alias harum quo hic amet culpa esse molestiae assumenda corrupti magnam vitae laudantium iure rerum cumque incidunt praesentium eum. Fugiat quae a at similique aut optio sapiente recusandae, laboriosam consectetur sint nesciunt quo harum? Neque hic sit laboriosam corporis ex veritatis? Numquam fugit dolor error repellat obcaecati, accusantium accusamus vel repudiandae blanditiis labore animi quasi deleniti ipsam possimus voluptates enim? Nesciunt dignissimos, hic optio culpa ratione, doloremque dicta cupiditate architecto eos aliquid temporibus eum vitae laborum amet, corrupti exercitationem necessitatibus obcaecati officiis eligendi laboriosam quia nulla? Voluptas pariatur ducimus et eius sapiente, quo commodi repellendus fuga! Nesciunt, cum placeat doloribus est velit labore ipsum dignissimos dolores laboriosam debitis. Rerum velit cumque ipsam quia molestiae ipsum sequi possimus hic harum ducimus, distinctio animi consectetur! Accusantium, nam unde doloremque reiciendis perferendis enim. Officiis ad laboriosam consequuntur quaerat quam iure iste consequatur eius perferendis unde perspiciatis rerum commodi tenetur quasi assumenda magnam ipsum amet, nesciunt sed, voluptas porro. Repellat, velit dicta consequatur quod atque exercitationem cum blanditiis nemo non. Quam doloribus dolorem eligendi corporis! Similique placeat esse aperiam, quibusdam quam odio iure dolores recusandae eaque magnam. Harum eius minima sit molestiae nihil eveniet dolor, atque minus dicta provident. Non illo temporibus sed doloremque suscipit corporis reprehenderit error molestias a fugit eos quaerat libero, quidem, excepturi autem, laudantium deserunt! Voluptas, ex beatae. Possimus iure corrupti, vitae aliquam quibusdam id incidunt laudantium ducimus distinctio praesentium? Fugiat neque aliquam expedita laborum odio consectetur suscipit iure laudantium enim, aut earum numquam beatae provident ut explicabo quis harum sunt inventore sequi quae ea? Molestiae quo voluptate ut ex recusandae placeat? Aliquid magni tempore nemo facilis natus error quas quis reprehenderit mollitia eveniet velit quos placeat corporis doloribus, modi atque deserunt laborum sunt, quam pariatur, ipsam nostrum. Quae ducimus nobis accusantium, eum deleniti nesciunt molestias cum aperiam quod laboriosam iure alias et praesentium. Itaque, culpa beatae quia nobis sed praesentium ab, architecto vitae harum suscipit accusamus corrupti aliquid? Perferendis voluptas qui repellat eligendi voluptatibus repudiandae molestias, ab sit illum ut dignissimos, consectetur ducimus. Porro sunt laborum repellendus omnis eos. Qui beatae voluptates eius quasi, modi dolore quidem enim ex deserunt porro tempora minima!</p>
-    <h4 id="scrollspyHeading2">Electronica</h4>
-    <p style="padding: 1rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, cumque. Quae placeat sunt corporis, adipisci voluptatibus magnam odit nobis in obcaecati facilis, ducimus iste dolor quasi libero eos soluta dolores eligendi, voluptatum reiciendis necessitatibus? Expedita asperiores, repudiandae, deserunt quaerat velit modi nemo quae voluptate culpa reprehenderit dolorem sint deleniti accusantium voluptatem exercitationem nulla illum consequatur voluptatibus laudantium, placeat ducimus corporis! Quod facilis debitis alias qui, quisquam provident nam aspernatur incidunt adipisci molestias? Iusto labore laboriosam dolor, temporibus eligendi dolorum magnam repellat distinctio consequatur. Possimus, exercitationem ab, rerum esse fugit dolore fugiat corrupti voluptates repellendus ad id, odio aperiam sunt iste maiores nemo aliquid ratione impedit quod similique quidem. Delectus placeat tenetur quia, perferendis autem accusantium voluptas laboriosam dolorem in dolore nesciunt. Nemo error eum voluptas quod numquam corrupti neque animi? Totam voluptatibus voluptates eius praesentium, adipisci dicta, nostrum accusamus voluptatum sint laborum velit iure exercitationem eligendi saepe alias architecto blanditiis quo, quis fugit. A, suscipit explicabo! Culpa dolore hic magnam accusamus. Ea officia eos voluptatem id optio molestias inventore consequuntur sequi! Eligendi vel error in, nobis, qui laborum officiis nihil, doloremque ab saepe eius! Accusamus, dicta, dolorem dolor, molestiae quidem hic tempora voluptate eius repellat temporibus veritatis voluptas? Ipsum unde quibusdam at a praesentium. Deserunt officiis harum, tenetur ipsum porro alias rerum. Necessitatibus, omnis. Assumenda culpa, nam voluptatem nobis fuga, esse omnis beatae eligendi dolores odio possimus ipsa corrupti architecto non delectus magnam id magni harum saepe excepturi perspiciatis reprehenderit? Atque quasi quo architecto praesentium voluptas, autem eveniet doloribus incidunt deleniti officiis accusantium eligendi optio corrupti maxime dignissimos consequatur rem, laboriosam, sapiente dolorem veniam quis itaque tempora amet iusto. Nisi debitis autem consectetur temporibus perspiciatis adipisci consequuntur aut quibusdam dignissimos totam! Voluptas provident veniam vero magnam aspernatur assumenda error nemo sunt? Minus sit delectus laudantium consequatur corporis ratione odio, eum nesciunt ab? Dolores quisquam eligendi perferendis blanditiis vero amet molestiae iusto placeat. Nisi sed nemo fugit ullam. Distinctio, aliquid aperiam dolores exercitationem non ducimus hic, consectetur facere asperiores, quasi optio! Minus temporibus corrupti velit molestiae cupiditate officia consequatur nihil! Fuga deleniti impedit repudiandae perspiciatis nostrum repellat, voluptates reprehenderit pariatur? Pariatur perspiciatis possimus iure fugiat voluptatibus nulla eos, exercitationem aperiam nemo, nam doloribus recusandae eaque odit obcaecati, distinctio voluptatem. Quia, illo nemo sit facere enim nostrum quo. Autem quas reprehenderit eaque non architecto alias ut velit. Ut, quisquam error vitae facilis temporibus atque libero cupiditate, incidunt provident quas consectetur sapiente dolore? Nesciunt omnis, earum iusto reiciendis error quis velit quidem inventore illo amet fugit dicta quae rerum nam porro voluptas laborum maxime doloribus nisi possimus recusandae? Excepturi vero reprehenderit voluptatem. Natus pariatur magnam atque, deleniti vitae soluta cum perferendis, illo harum in mollitia cupiditate minima? Quae quas illum doloremque molestiae. Hic saepe illum illo sequi, eos officia dicta totam rem enim et omnis harum molestiae. Asperiores corrupti cumque labore doloremque. Aliquam qui pariatur commodi delectus tempore tenetur maxime voluptates rem iste, quae assumenda consequuntur eos natus incidunt nulla dolorum quisquam laudantium eligendi veniam cumque, architecto nihil odit cupiditate obcaecati? Ipsam omnis perferendis delectus sint qui repellendus pariatur, ratione praesentium repellat maxime libero voluptatum culpa repudiandae, dolor fugit? Ratione aliquid adipisci doloribus vitae minus, eaque delectus ipsa libero suscipit quae nisi. Nostrum unde quam, eum libero accusamus maiores cum obcaecati eos soluta neque molestias natus quis vel quisquam porro? Consequuntur, quaerat vitae. Aliquam magni fuga placeat, voluptatem obcaecati mollitia est eum, suscipit consequuntur dolores at ullam eaque. Quas reprehenderit sequi quam praesentium laudantium, eaque, ad accusamus sapiente natus doloremque reiciendis rerum minima tempore sed enim cum maiores! Cupiditate nostrum repudiandae dolor autem repellendus modi fugit, obcaecati inventore atque quidem nesciunt. Obcaecati eligendi cum deserunt quae dolorum, laborum dicta eum esse dolorem, sed earum, atque nostrum omnis quis! Laborum, totam provident minus expedita vitae illo molestias nobis ad molestiae eos magni consequuntur quia aliquid amet sit voluptatibus temporibus veritatis nihil voluptatem sapiente dignissimos? Repellendus, debitis excepturi! Iste commodi similique animi quam, maxime molestias saepe minus itaque sint expedita at corrupti esse ipsam quos totam. Quas rerum minima laudantium autem repellat, cupiditate aliquid assumenda ad quasi pariatur inventore, consequatur perferendis, impedit voluptate repellendus. Voluptatem pariatur exercitationem eos, corrupti necessitatibus architecto sit ipsam nobis perspiciatis numquam doloribus est saepe! Porro eum neque, animi repellat id quia, qui laudantium expedita molestias cumque exercitationem at illum consectetur inventore aspernatur rerum impedit odio explicabo! Vitae magni ullam voluptatem quam temporibus itaque iusto, nobis, exercitationem, recusandae labore omnis. Blanditiis, quas vel iste veniam fugiat nam quia, unde repellendus odio consequatur quaerat cupiditate fugit laborum officiis iusto, officia illum quos. Doloribus, totam laudantium est atque rem culpa itaque. Itaque autem nam minus necessitatibus molestiae tenetur? Deleniti laboriosam, fugit voluptate sunt voluptas doloremque? Impedit minus nobis corrupti atque saepe minima dolorum aperiam quisquam reiciendis possimus suscipit non officia, maiores incidunt? Enim quia consectetur dolorem aliquid ut impedit. Officia iure deserunt quidem tempore necessitatibus? Impedit quibusdam ab vero placeat suscipit laboriosam doloribus! Impedit, facilis tempora assumenda, odit vitae sint ratione magni libero, tenetur perspiciatis nulla dolorum! Libero eum cupiditate voluptatibus amet facere. Eius sequi quisquam quasi dicta error! Impedit molestias consectetur iusto recusandae dicta amet, officia sequi perferendis modi doloremque accusantium reprehenderit rem, animi enim corrupti debitis illum distinctio fuga excepturi aspernatur repudiandae! Maxime, excepturi ut similique, non natus enim iusto repellendus, illo nisi reiciendis expedita pariatur esse atque asperiores repellat vel. Officia cumque nemo officiis ex deleniti. Neque, amet corporis accusantium impedit quasi pariatur ut nam odio id dignissimos nisi sequi.</p>
-    <h4 id="scrollspyHeading3">Biotecnologia</h4>
-    <p style="padding: 1rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo nesciunt maiores sunt voluptatibus accusantium dolorum praesentium ex? Nesciunt quo temporibus magni. Rerum, eum voluptatibus. Dolore sint delectus distinctio, illo, eaque enim ipsa optio ea, nulla maiores cumque necessitatibus assumenda saepe nostrum culpa voluptatum quae ipsum provident ducimus velit inventore corporis eum! Odio labore itaque rem, maxime ut rerum sint necessitatibus nobis, aut dicta possimus officia perspiciatis fuga iusto doloribus, maiores nemo consequatur totam similique cupiditate neque aliquam esse error soluta! Officiis iure doloribus neque. Alias, cumque? Recusandae dolorem numquam nisi labore earum dolore hic alias a, deserunt dicta culpa, quam magni amet maiores vel, perspiciatis dolorum. Placeat consectetur doloremque expedita in temporibus hic, cum excepturi aut eos delectus quia beatae, sed iusto a earum eveniet id non velit. Repellat tempore eos ducimus maiores fuga quam beatae culpa quas aut distinctio, deleniti nostrum nam odit natus fugit sed explicabo minima quidem sunt ipsum? Earum assumenda dolorem, similique, distinctio blanditiis facilis fugit ducimus culpa rem at illo officia obcaecati. Veniam suscipit quaerat deserunt saepe ab animi eum omnis nisi, porro cumque laborum quis consectetur et, asperiores voluptatum molestiae velit quia! Et, corrupti blanditiis non praesentium culpa illum vel nulla sapiente eveniet eos quas, eum iusto doloribus inventore dicta? Beatae facere asperiores rerum adipisci vel et quam consectetur sit officia deserunt vero laboriosam sapiente labore dolorem illo, laborum iusto dolorum quis est accusantium voluptatum facilis quasi fugiat. Maxime minima ab asperiores, commodi et possimus dignissimos nihil repudiandae eveniet architecto vero porro iure ea eum dolorem. Maiores cupiditate tempore dolore! Ea accusantium dignissimos quis vitae in reprehenderit. Magnam omnis mollitia consequatur quis sint fugit quidem repudiandae illum, alias saepe deserunt quo non porro itaque eum praesentium tenetur cupiditate, aliquid ullam quam asperiores quaerat nostrum! Fuga repellat architecto voluptas veritatis, culpa ratione similique tenetur temporibus, officiis reiciendis aut, nam earum rerum aliquid eius neque labore accusantium quaerat dicta nobis esse! Ad sunt culpa magnam iure iusto quae veritatis, vel officiis, alias esse expedita mollitia similique vitae perspiciatis eaque praesentium et, sapiente modi consectetur excepturi debitis quam laboriosam? Accusamus ducimus nulla excepturi maxime nesciunt veniam placeat, officiis quis sequi minus veritatis perferendis consectetur, dolore itaque reprehenderit natus modi molestiae nostrum rerum? Et ex dolorum dolores enim? Atque recusandae molestias quo quas! Dicta, quam. Rerum, in suscipit nihil minima similique illum distinctio cumque quod mollitia necessitatibus iusto velit quaerat veritatis ratione atque, commodi laboriosam sed magnam totam officiis quibusdam impedit obcaecati? Qui dolorum ullam nihil, corrupti molestiae, neque eos sint delectus omnis fuga officiis odit illo voluptatibus accusamus incidunt explicabo? Provident exercitationem accusantium quaerat porro illo neque velit quis officia voluptatibus est magni nulla laudantium alias praesentium aliquid amet possimus blanditiis dignissimos, dolore perferendis quod assumenda? Ipsa cum quibusdam dicta dolorem quod eos saepe perferendis provident quidem laboriosam iure, optio at. Neque maxime atque accusamus nulla culpa fugiat eius. Dolore, ut, alias voluptatibus amet dignissimos debitis exercitationem dolorem provident minus deserunt quod quae necessitatibus accusamus asperiores nulla porro eaque. Alias sequi incidunt omnis quasi, consequatur labore voluptate corrupti veniam, explicabo, at inventore minus fugiat enim? Cupiditate tempore numquam esse hic eligendi velit possimus similique officiis enim, perferendis consectetur delectus. Excepturi exercitationem sit dolorum ut quisquam! Quae corrupti, eaque suscipit molestiae dolores eveniet, voluptates iste repellat nobis incidunt minima asperiores voluptatem harum pariatur velit maxime libero voluptatum! Id totam perferendis aspernatur ex sed quaerat excepturi voluptas molestiae laborum dolore? Tenetur corporis dolore corrupti illo a dicta totam? Magnam ipsum atque numquam vel natus exercitationem eaque temporibus ipsam, sunt consectetur dicta aliquid possimus, repellendus labore tempora, esse veritatis pariatur ad. Sint ullam, laboriosam quidem suscipit qui ducimus quia quasi, tenetur quod, dicta accusantium illum sunt possimus necessitatibus commodi quisquam praesentium harum ex deleniti temporibus nobis exercitationem. Provident, quia? Fuga velit odio ullam eveniet, eaque, in tempora deleniti ratione, aut maiores atque inventore quidem! Velit, quod? At, id nobis accusantium aliquam nostrum dolorem. Distinctio dicta repellat ducimus beatae id adipisci maxime porro iste odit natus laudantium vel, illo doloribus, suscipit numquam fuga repudiandae temporibus praesentium? Perferendis, deleniti minima laudantium laborum ut quibusdam quo est saepe vitae ea. Blanditiis magnam soluta sapiente perferendis quaerat commodi officia facilis, iure sed fugiat corporis voluptate quia minima aliquid, cum, voluptatibus nobis iusto. Ad id, voluptatem magnam aliquid voluptatum minima excepturi est officiis velit molestias incidunt delectus laborum atque aperiam iure beatae temporibus hic ullam suscipit, praesentium, cumque molestiae iste fuga? Ad eos quos laboriosam atque blanditiis, ullam ratione qui culpa nulla! Modi nemo iure excepturi unde reprehenderit distinctio similique aperiam illum nam? Saepe possimus eveniet et voluptates aut, ut ab dolores esse repellendus a quis, maxime veritatis nesciunt illo exercitationem quod nulla! Officiis hic laudantium quas accusamus rerum qui quod corrupti est dignissimos voluptate asperiores eius a sequi, iure magni totam dolorum temporibus enim quae corporis! Recusandae sapiente repudiandae accusamus veniam vero ratione? Earum, adipisci molestias non hic libero sequi dicta saepe harum dolorem deserunt qui architecto quis provident a tempora! Ducimus voluptatibus porro voluptate facere fugit nostrum pariatur minus aliquid voluptates dicta exercitationem sapiente et voluptas tenetur ipsum, reiciendis autem totam. Beatae incidunt inventore, delectus a at, autem et nobis hic saepe, aspernatur praesentium tempore iure. Porro doloremque quas quisquam beatae reiciendis consequuntur praesentium, hic veritatis qui natus quia. Illum tempore a voluptatibus mollitia! Quibusdam dolor dolorem numquam perspiciatis, impedit voluptas. Sit, corporis! Tempora, ipsam nisi sapiente qui ad officia corrupti debitis, doloremque laboriosam hic minima provident, quam velit error assumenda cum obcaecati.</p>
-    <h4 id="scrollspyHeading4">Fourth heading</h4>
-    <p style="padding: 1rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, soluta beatae libero ipsum, aliquid sit eum, excepturi a adipisci tempora iste earum porro? Et fugiat recusandae consequuntur doloribus amet accusantium quia illum aliquid possimus iusto voluptas, officia corrupti dolores deleniti iste. Consequatur impedit, dolor autem nostrum eos vitae voluptas, quidem perferendis cumque ratione sint dicta accusamus assumenda ut, incidunt laborum mollitia quasi quod sit? Cumque, nemo. Ad vitae sed soluta delectus officia ipsa quod sunt sapiente nobis enim maxime esse porro cupiditate consectetur praesentium rerum, voluptate nesciunt ex accusantium veniam ab consequuntur doloremque fugiat. Ut itaque eos earum labore animi ab dolorem quasi alias, tenetur tempora veritatis repellendus, maiores dolores quos molestias aspernatur vero impedit sapiente maxime facilis odio ducimus rerum sit. Quisquam aut nemo mollitia provident debitis voluptatibus at quaerat necessitatibus, exercitationem natus ratione, iste, incidunt eveniet officiis minima qui. Ut, at dignissimos a non perferendis adipisci animi doloribus similique est quam vero provident, tenetur eligendi maiores pariatur, accusamus debitis modi numquam. Repudiandae iste laborum, dignissimos numquam rem dolorem, consectetur quaerat repellendus fugit fugiat consequatur perferendis commodi perspiciatis ipsa sapiente harum quod deserunt laudantium debitis necessitatibus! Possimus autem, ut delectus iure quisquam quibusdam et fuga officia animi in exercitationem, at, hic repellendus. Placeat perferendis fugit voluptates debitis reiciendis facere maxime sunt nemo officiis reprehenderit fuga velit doloremque corrupti, quod omnis voluptate deserunt vitae voluptatibus blanditiis minus. Quasi dolorum corrupti accusantium nemo, magnam quisquam debitis delectus velit qui, incidunt soluta, veritatis asperiores maiores minus animi ad! Voluptatum, tempora nisi voluptates labore, inventore sapiente nesciunt quisquam dolores voluptatibus iste provident! Laboriosam alias minus in amet magni? Aperiam ullam, commodi corrupti vel repellendus veritatis odio quidem sequi consequuntur ipsa, voluptas voluptatum in. Delectus a ratione dolore eaque neque ducimus architecto molestias nisi rerum dolor! Praesentium voluptatem possimus doloremque esse aspernatur odio sit accusamus quidem consequuntur ex, cum, a fugiat eligendi sunt ratione natus veniam voluptatibus! Minima rerum consectetur commodi voluptas doloribus culpa quaerat cupiditate earum nam itaque, tenetur ipsum ullam fuga quasi dignissimos. Voluptatem eaque nam voluptates illo eum sit. Impedit quo ullam dolorum itaque eveniet beatae voluptas praesentium alias, quisquam recusandae veniam fugiat saepe voluptatum obcaecati inventore, soluta aut doloribus culpa quia rerum? Modi voluptates quo natus incidunt, tenetur fugiat quod itaque autem aut, quos illum odio dolorem voluptatum placeat ullam? Consequatur, odio est. Veniam laudantium, earum quas et pariatur nostrum harum magnam sequi voluptates dignissimos natus nihil quibusdam minus at recusandae, vel ex aut cum voluptas ducimus possimus molestiae. Tenetur odit, rem eius tempora dolores enim iusto ex doloribus optio rerum doloremque aspernatur ut nisi quam eveniet repudiandae unde aperiam omnis animi nihil quibusdam iure fugit possimus! Voluptatibus, quo repellendus facere voluptas blanditiis distinctio itaque dignissimos asperiores fugiat libero in perferendis aliquam eaque. Fugit deserunt, sint a minima, fugiat eaque, saepe magni odit perferendis inventore omnis rerum corrupti quos dolorum temporibus molestias explicabo expedita iure. Deserunt obcaecati nam praesentium velit exercitationem. Sequi magni modi voluptatem vero architecto harum sunt nam totam. Nobis, praesentium accusantium. Qui, et distinctio rerum dolor suscipit, labore neque eaque non cumque officiis fuga enim corrupti. Laudantium impedit accusantium temporibus dicta consequatur aliquam eius blanditiis porro optio, architecto corporis, quo ipsum numquam ut aliquid alias, excepturi cupiditate vel saepe quas fugiat. Illum temporibus libero, corporis eum exercitationem dolorum itaque laborum, suscipit sunt quae, minima praesentium. Odit, harum culpa. Explicabo ipsa a, necessitatibus perspiciatis eius pariatur architecto magnam est. Expedita error autem repellat aliquid mollitia pariatur voluptatem eaque debitis, architecto nostrum, dolorem soluta corrupti quo repellendus odio. Cupiditate vero velit hic excepturi tenetur expedita laudantium reiciendis delectus pariatur repellendus, incidunt molestias illo laborum commodi? Laborum aut ratione corporis. Tenetur amet non, similique expedita aliquam neque nisi possimus ducimus esse blanditiis recusandae culpa consectetur, facere quaerat excepturi sint! Eos nobis obcaecati nesciunt vero maxime dicta totam sapiente laborum inventore accusamus ea distinctio sint veniam velit optio hic vitae, facilis a. Enim similique quaerat nulla nihil eveniet! Vero, magni. Cumque, magnam porro labore sapiente sunt odio veniam ratione minima dolor, eveniet laboriosam maiores, voluptatum facere! Ipsam recusandae soluta, eligendi doloribus architecto culpa nobis ipsa hic commodi labore deleniti enim, fugiat voluptatum non iusto est nam illo nostrum veniam. Asperiores, incidunt. Dolor enim molestias nostrum mollitia ipsa officiis facere magnam ratione delectus consectetur tempore alias odit fuga culpa ad, nemo deserunt corrupti similique impedit aliquid, eum veritatis rem quas quam? Laborum, adipisci corporis perferendis sequi temporibus aspernatur fugiat a id perspiciatis, labore quia quos debitis ullam velit nostrum! Id non odio nesciunt deserunt laudantium, possimus itaque ipsa animi, illo labore obcaecati, laborum veritatis unde error cupiditate molestiae modi. Possimus atque assumenda, autem perspiciatis vel sapiente quas eius qui, provident placeat sint non nesciunt expedita accusamus reiciendis accusantium officia officiis laudantium quasi dicta? Accusantium ab blanditiis odio beatae est excepturi, iste atque, voluptates facilis maxime aliquam, explicabo sed dolorem. Quidem et dolore, alias provident accusamus ipsum tempora illo maiores? Modi ex quod at adipisci molestias similique, accusantium nobis illo, repellendus voluptatum ipsum unde sunt, voluptatibus quae! Unde aperiam recusandae voluptatem neque, fugiat eveniet fugit perferendis vero iste sint cumque ipsa necessitatibus aspernatur reprehenderit ullam porro quam praesentium, harum in hic corrupti sit adipisci consequatur. Perspiciatis saepe quidem ipsam, quibusdam nam quo pariatur id quam provident vel hic dolorum dignissimos, obcaecati soluta consequatur mollitia. Eos facere ducimus quia aliquam suscipit a distinctio, officiis, debitis placeat repellat iure neque. Debitis dolor totam optio sapiente officia voluptate, ab accusamus expedita, corrupti sint aspernatur, voluptates nihil!</p>
-    <h4 id="scrollspyHeading5">Fifth heading</h4>
-    <p>...</p>
+    <!-- final primer card -->
+  <!-- Final Experiencias tercera parte -->
+
+  <!-- inicio cuarta parte-->
+  <h1 class="text-center" style="
+        color: rgb(173, 88, 9);
+        font-family: 'Montserrat', sans-serif;
+        padding-top: 100px;
+      ">
+    Lineas de la Tecnoacdamia
+  </h1>
+  <div class="text-center" style="padding-top: 30px">
+    <a type="button" class="btn btn-primary" href="tic.html">TIC</a>
+    <a type="button" class="btn btn-primary" href="diseño.html">Diseño y prototipado</a>
+    <a type="button" class="btn btn-primary" href="electronica.html">Electrónica y robótica</a>
+    <a type="button" class="btn btn-primary" href="biotec.html">Biotecnología</a>
   </div>
--->
-    <!-- imagen con adaptabilidad 
-    <img src="https://www.tensorflow.org/images/fashion-mnist-sprite.png?hl=es-419" class="img-fluid" alt="...">
-    -->
-    <!-- scripts -->
-    <script src="bootstrap.bundle.min.js"></script>
-  </body>
+
+  <!-- principio de cuadros-->
+    <!-- primer card tic -->
+    <div class="row row-cols-1 row-cols-md-2 g-4" style="padding: 60px">
+      <div class="col">
+        <div class="card">
+          <img href="tic.html"
+            src="https://www.alfabetizaciondigital.redem.org/wp-content/uploads/2021/06/Realidad-virtual-gusta-gente_1585651433_140351005_667x375-2100x1200.jpg"
+            alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Tic</h5>
+            <p class="card-text">
+              Las Tecnologías de la Información y las Comunicaciones (TIC), son
+              el conjunto de recursos, herramientas, equipos, programas
+              informáticos, aplicaciones, redes y medios; que permiten la
+              compilación, procesamiento, almacenamiento, transmisión de
+              información como: voz, datos, texto, video e imágenes...
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- segundo card diseño -->
+      <div class="col">
+        <div class="card">
+          <img src="https://impresioni3d.com/wp-content/uploads/2019/02/1-Imagen.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Diseño</h5>
+            <p class="card-text">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- tercer card electronica -->
+      <div class="col">
+        <div class="card">
+          <img src="https://www.electronicaembajadores.com/datos/fotos/articulos/grandes/ro/robt/robtmk3.jpg"
+            class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Electronica</h5>
+            <p class="card-text">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- cuarto card biotecnologia-->
+      <div class="col">
+        <div class="card">
+          <img
+            src="data:image/jpeg;base64,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"
+            class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Biotecnologia</h5>
+            <p class="card-text">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- final cuarta parte-->
+
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
 </html>
