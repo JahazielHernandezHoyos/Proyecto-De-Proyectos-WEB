@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="es">
 
 <head>
@@ -13,7 +12,6 @@
   <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
   <link rel="stylesheet" href="assets/css/main.css" />
 
-  <title>Tecnoacademia Oriente</title>
 </head>
 
 <body>
