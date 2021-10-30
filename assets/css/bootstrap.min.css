@@ -9825,3 +9825,10 @@ fieldset:disabled .btn {
 }
 /*# sourceMappingURL=bootstrap.min.css.map */
 
+body::-webkit-scrollbar {
+  width: 7px;
+}
+
+body::-webkit-scrollbar-thumb{
+  background: #f8be00;
+}
